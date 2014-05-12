@@ -44,10 +44,12 @@
         <item >GP02</item>
         <item >GL04P</item>
         <item >GL06P</item>
+        <item >GL10P</item>
     </string-array>
     <string-array name="router_model_entryvalues">
         <item >GP02</item>
         <item >GL04P</item>
         <item >GL06P</item>
+        <item >GL10P</item>
     </string-array>
 </resources>
