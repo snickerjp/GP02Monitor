@@ -198,7 +198,11 @@ public class GP02MonitorService extends Service {
     	String routerModel = preferences.getString("key_router_model", "GP02");
     	if (routerModel.equals("GL04P")) {
     		driver = new GL04PDriver();
-    	} else {
+    	} else if (routerModel.equals("GL06P")) {
+    		driver = new GL06PDriver();
+		} else if (routerModel.equals("GL10P")) {
+    		driver = new GL10PDriver();
+		} else {
     		driver = new GP02Driver();
     	}
     	
