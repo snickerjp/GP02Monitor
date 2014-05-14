@@ -200,6 +200,8 @@ public class GP02MonitorService extends Service {
     		driver = new GL04PDriver();
     	} else if (routerModel.equals("GL06P")) {
     		driver = new GL06PDriver();
+		} else if (routerModel.equals("GL10P")) {
+    		driver = new GL10PDriver();
 		} else {
     		driver = new GP02Driver();
     	}
